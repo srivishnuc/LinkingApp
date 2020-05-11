@@ -23,8 +23,9 @@ const useStyle = (style) => ({
   },
   CardContainer: {
     display: 'flex',
-    flexDirection: 'rows',
-    flexWrap: 'wrap',
+    //flexDirection: 'rows',
+    //flexWrap: 'wrap',
+    flexFlow: 'row wrap',
     alignItems: 'center',
     padding: style.spacing(3)
   },
